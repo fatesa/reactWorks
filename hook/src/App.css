@@ -1,0 +1,7 @@
+.products ul{
+  list-style: none;
+}
+
+.products li{
+  margin-bottom: 10px;
+}
