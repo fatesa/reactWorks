@@ -6,6 +6,10 @@ import Counter from './components/counter.jsx'
 import Car from './components/Car.jsx'
 import AddProduct from './components/AddProduct.jsx'
 import Box from './components/Box.jsx'
+import AddDrink from './components/AddDrink.jsx'
+import User from './components/User.jsx'
+import Clock from './components/Clock.jsx'
+import Profile from './card/Profile.jsx'
 
 function App() {
  
@@ -44,6 +48,13 @@ function App() {
         <p>이것은 또 다른 Box 컴포넌트 안에 있는 내용입니다.</p>
       </Box>
 
+      <AddDrink />
+      <br />
+      <User />
+      <br />
+      <Clock />
+      <br />
+      <Profile />
     </>
   )
 }
