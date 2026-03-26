@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Dog from './components/Dog.jsx'
 import Garden from './components/Garden.jsx'
-import Counter from './components/counter.jsx'
+import Counter from './components/Counter.jsx'
 import Car from './components/Car.jsx'
 import AddProduct from './components/AddProduct.jsx'
 import Box from './components/Box.jsx'
@@ -10,6 +10,9 @@ import AddDrink from './components/AddDrink.jsx'
 import User from './components/User.jsx'
 import Clock from './components/Clock.jsx'
 import Profile from './card/Profile.jsx'
+import MapTest from './components/MapTest.jsx'
+import SignUp from './form/SignUp.jsx'
+import SignIn from './form/SingIn.jsx'
 
 function App() {
  
@@ -55,6 +58,9 @@ function App() {
       <Clock />
       <br />
       <Profile />
+      <MapTest />
+      <SignUp />
+      <SignIn />
     </>
   )
 }

@@ -25,3 +25,11 @@ body{
   max-width: 300px;
   text-align: center;
 }
+
+ul{
+  list-style: none;
+}
+
+button{
+  margin: 10px;
+}
