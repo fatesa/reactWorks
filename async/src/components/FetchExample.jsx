@@ -4,6 +4,7 @@ const FetchExample = () => {
 
     const [data, setData] = useState([]);
 
+    //컴포넌트가 마운트될때 한번만 실행(랜더링)
     useEffect(()=>{
         fetch('https://jsonplaceholder.typicode.com/todos')
         .then((response) => response.json()) //json -> js 객체로 변환

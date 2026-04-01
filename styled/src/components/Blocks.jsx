@@ -21,6 +21,10 @@ const Block = styled.div`
     cursor: pointer;
 `
 
+const Font = styled.span`
+    color: ${props => props.color};    
+`
+
 const Blocks = () => {
 
     //클릭한 블록의 색상을 저장하는 상태
@@ -36,7 +40,7 @@ const Blocks = () => {
             <Block color="green" onClick={() => handleClick('green')}></Block>
             <Block color="blue" onClick={() => handleClick('blue')}></Block>
             <Block color="red" onClick={() => handleClick('red')}></Block>
-            {clicked && <p>클릭한 색상 : {clicked}</p>}
+            {clicked && <p>클릭한 <Font color={clicked}>색상 : {clicked}</Font></p>}
         </Wrapper>
         
     )
