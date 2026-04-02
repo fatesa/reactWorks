@@ -37,3 +37,17 @@ button{
   margin-left: 8px;
 }
 
+.table-list{
+  width: 60%;
+  margin: 0 auto;  
+  border-collapse: collapse;
+}
+
+.table-list th, .table-list td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-list thead{
+  background-color: #eee;
+}

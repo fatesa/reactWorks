@@ -1,0 +1,10 @@
+#container{
+  margin-top: 20px;
+}
+
+.user, .user-child{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
